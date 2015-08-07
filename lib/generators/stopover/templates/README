@@ -1,0 +1,12 @@
+===============================================================================
+
+Thank you for installing!
+You can change a layout, view path, custom methods etc in config/initializers/stopover.rb.
+
+Add to your routes.rb if you want to check pages on your browser:
+
+  mount Stopover::Engine, at: '/stopover', as: :stopover if Rails.env.development?
+
+Then visit http://localhost:3000/stopover.
+
+===============================================================================
